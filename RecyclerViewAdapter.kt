@@ -9,9 +9,8 @@ class /*<Class name>*/Adapter(
      * RecyclerView.ViewHolder so it can be used by the RecyclerView.
      */
     class /*<ViewHolder name>*/(private val view: View) : RecyclerView.ViewHolder(view) {
-        // We create references to elements in list_item.xml so we can modify them.
-        
-      /* Provide constants that will link to elements in the item list xml. For example:
+        // We create references to elements in list_item.xml so we can modify them.  
+        /* TODO: Provide constants that will link to elements in the item list xml. For example:
         
         val intersectionItemName: TextView = view.findViewById(R.id.intersectionItemName) // intersectionItemName is the name of a TextView element
         val position: TextView = view.findViewById(R.id.position) // position is the name of a TextView element
@@ -44,7 +43,8 @@ class /*<Class name>*/Adapter(
          * We retrieve the corresponding intersection name from our dataset so it is displayed in
          * the correct position of the RecyclerView
          */
-        /* Provide code to retrieve the corresponding element at a given position. For example:
+
+        /* TODO: Provide code to retrieve the corresponding element at a given position. For example:
         val item = dataset[position]
         */
 
@@ -52,7 +52,8 @@ class /*<Class name>*/Adapter(
          *  We change the values of the elements in the layout according to the data values. We use
          *  the position parameter to show numbering.
          */
-        /* Provide code that changes the values of elements in the item view. For example: 
+
+        /* TODO: Provide code that changes the values of elements in the item view. For example: 
         holder.position.text = (position + 1).toString() + "."
         holder.intersectionItemName.text = item
         */
